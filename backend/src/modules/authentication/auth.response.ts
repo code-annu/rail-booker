@@ -2,13 +2,13 @@ import { UserWithSession } from "./auth.dto";
 
 export const mapToAuthResponse = (
   userWithSession: UserWithSession,
-  code: number,
+  statusCode: number,
   message: string,
 ) => {
   const { user, session } = userWithSession;
   return {
     message,
-    code,
+    statusCode,
     success: true,
     data: {
       user: {

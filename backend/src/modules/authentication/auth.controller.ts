@@ -14,6 +14,8 @@ export default class AuthController {
 
   public signup = catchAsync(async (req: Request, res: Response) => {
     const { fullname, email, password, phone, username } = req.body;
+    const userAgent = req.headers["user-agent"] || "";
+    console.log(userAgent);
     const result = await this.authService.signup({
       fullname,
       email,
@@ -21,6 +23,7 @@ export default class AuthController {
       ipAddress: req.ip?.toString() || "",
       phone,
       username,
+      userAgent,
     });
     const response = mapToAuthResponse(
       result,
@@ -32,10 +35,12 @@ export default class AuthController {
 
   public login = catchAsync(async (req: Request, res: Response) => {
     const { email, password } = req.body;
+    const userAgent = req.headers["user-agent"] || "";
     const result = await this.authService.login({
       email,
       password,
       ipAddress: req.ip?.toString() || "",
+      userAgent,
     });
     const response = mapToAuthResponse(result, 200, "Login successful");
     res.status(200).json(response);
@@ -46,7 +51,7 @@ export default class AuthController {
     await this.authService.logout(sessionId);
     res.status(200).json({
       message: "Logged out successfully",
-      code: 200,
+      statusCode: 200,
       success: true,
     });
   });

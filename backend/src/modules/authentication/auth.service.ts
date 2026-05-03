@@ -3,10 +3,12 @@ import TYPES from "../../di/inversify.types";
 import { LoginInput, SignupUserInput, UserWithSession } from "./auth.dto";
 import * as bcrypt from "bcrypt";
 import AuthValidator from "../../shared/validator/user.validator";
-import { UnauthorizedError } from "../../shared/error/errors";
+import { NotFoundError, UnauthorizedError } from "../../shared/error/errors";
 import { generateSessionId } from "../../shared/util/session.util";
 import UserRepository from "../../shared/user/user.repository";
 import { UserStatus } from "../../shared/user/user.types";
+import ErrorCode from "../../shared/error/ErrorCodes";
+import crypto from "crypto";
 
 @injectable()
 export default class AuthService {
@@ -18,7 +20,8 @@ export default class AuthService {
   ) {}
 
   public signup = async (input: SignupUserInput): Promise<UserWithSession> => {
-    const { email, password, fullname, phone, ipAddress, username } = input;
+    const { email, password, fullname, phone, ipAddress, username, userAgent } =
+      input;
     await this.authValidator.ensureUserWithEmailNotExists(email);
     await this.authValidator.ensureUserWithUsernameNotExists(username);
     const hashedPassword = await bcrypt.hash(password, 10);
@@ -39,6 +42,10 @@ export default class AuthService {
       userId: user.id,
       sessionId: sessionId,
       ipAddress: ipAddress,
+      userAgentHash: crypto
+        .createHash("sha256")
+        .update(userAgent)
+        .digest("hex"),
       lastSeen: new Date(),
       expiresAt: new Date(Date.now() + 15 * 24 * 60 * 60 * 1000),
     });
@@ -47,21 +54,31 @@ export default class AuthService {
   };
 
   public login = async (input: LoginInput): Promise<UserWithSession> => {
-    const { email, password, ipAddress } = input;
-    const user = await this.authValidator.ensureUserWithEmailExists(email);
-    const isPasswordValid = await bcrypt.compare(password, user.passwordHash);
-    if (!isPasswordValid) {
-      throw new UnauthorizedError("Invalid credentials");
+    const { email, password, ipAddress, userAgent } = input;
+    const user = await this.userRepo.findUserByEmail(email);
+    if (!user || !(await bcrypt.compare(password, user.passwordHash))) {
+      throw new UnauthorizedError(
+        ErrorCode.INVALID_CREDENTIALS,
+        "Invalid authentication credentials",
+      );
     }
-
+    if (user.deletedAt || user.status !== UserStatus.ACTIVE) {
+      throw new NotFoundError(
+        ErrorCode.USER_NOT_FOUND,
+        "User not found. Your account may be deleted or inactive.",
+      );
+    }
     await this.userRepo.deleteSessionByUserId(user.id);
-
     const sessionId = generateSessionId();
 
     const session = await this.userRepo.createSession({
       userId: user.id,
       sessionId: sessionId,
       ipAddress: ipAddress,
+      userAgentHash: crypto
+        .createHash("sha256")
+        .update(userAgent)
+        .digest("hex"),
       lastSeen: new Date(),
       expiresAt: new Date(Date.now() + 15 * 24 * 60 * 60 * 1000),
     });
