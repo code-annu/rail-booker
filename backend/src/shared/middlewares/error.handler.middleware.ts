@@ -11,9 +11,10 @@ export const handleError = (
   if (error instanceof AppError) {
     return res.status(error.statusCode).json({
       success: false,
-      code: error.statusCode,
+      statusCode: error.statusCode,
       error: {
         type: error.type,
+        code: error.code,
         message: error.message,
       },
     });
@@ -21,6 +22,6 @@ export const handleError = (
   res.status(500).json({
     success: false,
     code: 500,
-    error: { type: ErrorType.INTERNAL_SERVER_ERROR, message: error.message },
+    error: { type: ErrorType.INTERNAL_SERVER, message: error.message },
   });
 };
