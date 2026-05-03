@@ -1,3 +1,4 @@
+import ErrorCode from "./ErrorCodes";
 import ErrorType from "./ErrorType";
 
 export default class AppError extends Error {
@@ -5,11 +6,13 @@ export default class AppError extends Error {
   message: string;
   isOperational: boolean;
   type: ErrorType;
+  code: ErrorCode;
 
   constructor(
-    message: string,
     statusCode: number,
     type: ErrorType,
+    code: ErrorCode,
+    message: string,
     isOperational: boolean = true,
   ) {
     super(message);
@@ -17,5 +20,6 @@ export default class AppError extends Error {
     this.message = message;
     this.isOperational = isOperational;
     this.type = type;
+    this.code = code;
   }
 }
