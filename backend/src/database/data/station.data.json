@@ -1,0 +1,2438 @@
+[
+  {
+    "name": "New Delhi",
+    "code": "NDLS",
+    "city": "Delhi",
+    "state": "Delhi"
+  },
+  {
+    "name": "Mumbai Central",
+    "code": "MMCT",
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Howrah Junction",
+    "code": "HWH",
+    "city": "Kolkata",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Chennai Central",
+    "code": "MAS",
+    "city": "Chennai",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Kanpur Central",
+    "code": "CNB",
+    "city": "Kanpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Varanasi Junction",
+    "code": "BSB",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Lucknow NR",
+    "code": "LKO",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Patna Junction",
+    "code": "PNBE",
+    "city": "Patna",
+    "state": "Bihar"
+  },
+  {
+    "name": "Bhopal Junction",
+    "code": "BPL",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Jaipur Junction",
+    "code": "JP",
+    "city": "Jaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Ahmedabad Junction",
+    "code": "ADI",
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  {
+    "name": "Surat",
+    "code": "ST",
+    "city": "Surat",
+    "state": "Gujarat"
+  },
+  {
+    "name": "Vadodara Junction",
+    "code": "BRC",
+    "city": "Vadodara",
+    "state": "Gujarat"
+  },
+  {
+    "name": "Rajkot Junction",
+    "code": "RJT",
+    "city": "Rajkot",
+    "state": "Gujarat"
+  },
+  {
+    "name": "Pune Junction",
+    "code": "PUNE",
+    "city": "Pune",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Nagpur",
+    "code": "NGP",
+    "city": "Nagpur",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Nashik Road",
+    "code": "NK",
+    "city": "Nashik",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Aurangabad",
+    "code": "AWB",
+    "city": "Aurangabad",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Secunderabad Junction",
+    "code": "SC",
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "name": "Hyderabad Deccan",
+    "code": "HYB",
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "name": "Bangalore City Junction",
+    "code": "SBC",
+    "city": "Bangalore",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Mysuru Junction",
+    "code": "MYS",
+    "city": "Mysore",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Hubli Junction",
+    "code": "UBL",
+    "city": "Hubli",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Ernakulam Junction",
+    "code": "ERS",
+    "city": "Kochi",
+    "state": "Kerala"
+  },
+  {
+    "name": "Trivandrum Central",
+    "code": "TVC",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala"
+  },
+  {
+    "name": "Madurai Junction",
+    "code": "MDU",
+    "city": "Madurai",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Coimbatore Junction",
+    "code": "CBE",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Vijayawada Junction",
+    "code": "BZA",
+    "city": "Vijayawada",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Visakhapatnam",
+    "code": "VSKP",
+    "city": "Visakhapatnam",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Ranchi",
+    "code": "RNC",
+    "city": "Ranchi",
+    "state": "Jharkhand"
+  },
+  {
+    "name": "Dhanbad Junction",
+    "code": "DHN",
+    "city": "Dhanbad",
+    "state": "Jharkhand"
+  },
+  {
+    "name": "Raipur Junction",
+    "code": "R",
+    "city": "Raipur",
+    "state": "Chhattisgarh"
+  },
+  {
+    "name": "Bilaspur Junction",
+    "code": "BSP",
+    "city": "Bilaspur",
+    "state": "Chhattisgarh"
+  },
+  {
+    "name": "Bhubaneswar",
+    "code": "BBS",
+    "city": "Bhubaneswar",
+    "state": "Odisha"
+  },
+  {
+    "name": "Cuttack",
+    "code": "CTC",
+    "city": "Cuttack",
+    "state": "Odisha"
+  },
+  {
+    "name": "Guwahati",
+    "code": "GHY",
+    "city": "Guwahati",
+    "state": "Assam"
+  },
+  {
+    "name": "Jammu Tawi",
+    "code": "JAT",
+    "city": "Jammu",
+    "state": "Jammu & Kashmir"
+  },
+  {
+    "name": "Amritsar Junction",
+    "code": "ASR",
+    "city": "Amritsar",
+    "state": "Punjab"
+  },
+  {
+    "name": "Ludhiana Junction",
+    "code": "LDH",
+    "city": "Ludhiana",
+    "state": "Punjab"
+  },
+  {
+    "name": "Chandigarh",
+    "code": "CDG",
+    "city": "Chandigarh",
+    "state": "Chandigarh"
+  },
+  {
+    "name": "Dehradun",
+    "code": "DDN",
+    "city": "Dehradun",
+    "state": "Uttarakhand"
+  },
+  {
+    "name": "Haridwar Junction",
+    "code": "HW",
+    "city": "Haridwar",
+    "state": "Uttarakhand"
+  },
+  {
+    "name": "Agra Cantt",
+    "code": "AGC",
+    "city": "Agra",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Prayagraj Junction",
+    "code": "PRYJ",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Gorakhpur Junction",
+    "code": "GKP",
+    "city": "Gorakhpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Indore Junction",
+    "code": "INDB",
+    "city": "Indore",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Gwalior Junction",
+    "code": "GWL",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Jodhpur Junction",
+    "code": "JU",
+    "city": "Jodhpur",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Udaipur City",
+    "code": "UDZ",
+    "city": "Udaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Kharagpur Junction",
+    "code": "KGP",
+    "city": "Kharagpur",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Sealdah",
+    "code": "SDAH",
+    "city": "Kolkata",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Darjeeling",
+    "code": "DJ",
+    "city": "Darjeeling",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Abu Road",
+    "code": "ABR",
+    "city": "Abu Road",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Adilabad",
+    "code": "ADB",
+    "city": "Adilabad",
+    "state": "Telangana"
+  },
+  {
+    "name": "Adoni",
+    "code": "AD",
+    "city": "Adoni",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Adra Junction",
+    "code": "ADRA",
+    "city": "Adra",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Agartala",
+    "code": "AGTL",
+    "city": "Agartala",
+    "state": "Tripura"
+  },
+  {
+    "name": "Agra Fort",
+    "code": "AF",
+    "city": "Agra",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Ahmednagar",
+    "code": "ANG",
+    "city": "Ahmednagar",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Ajmer Junction",
+    "code": "AII",
+    "city": "Ajmer",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Ajni",
+    "code": "AJNI",
+    "city": "Nagpur",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Akola Junction",
+    "code": "AK",
+    "city": "Akola",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Aligarh Junction",
+    "code": "ALJN",
+    "city": "Aligarh",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Alipurduar Junction",
+    "code": "APDJ",
+    "city": "Alipurduar",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Prayagraj Junction",
+    "code": "ALD",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Alappuzha",
+    "code": "ALLP",
+    "city": "Alappuzha",
+    "state": "Kerala"
+  },
+  {
+    "name": "Aluva",
+    "code": "AWY",
+    "city": "Aluva",
+    "state": "Kerala"
+  },
+  {
+    "name": "Alwar",
+    "code": "AWR",
+    "city": "Alwar",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Amalner",
+    "code": "AN",
+    "city": "Amalner",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Ambala Cantt Junction",
+    "code": "UMB",
+    "city": "Ambala",
+    "state": "Haryana"
+  },
+  {
+    "name": "Ambikapur",
+    "code": "ABKP",
+    "city": "Ambikapur",
+    "state": "Chhattisgarh"
+  },
+  {
+    "name": "Amla Junction",
+    "code": "AMLA",
+    "city": "Amla",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Anakapalle",
+    "code": "AKP",
+    "city": "Anakapalle",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Anand Junction",
+    "code": "ANND",
+    "city": "Anand",
+    "state": "Gujarat"
+  },
+  {
+    "name": "Anand Vihar Terminal",
+    "code": "ANVT",
+    "city": "Delhi",
+    "state": "Delhi"
+  },
+  {
+    "name": "Anantapur",
+    "code": "ATP",
+    "city": "Anantapur",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Angul",
+    "code": "ANGL",
+    "city": "Angul",
+    "state": "Odisha"
+  },
+  {
+    "name": "Annavaram",
+    "code": "ANV",
+    "city": "Annavaram",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Anuppur Junction",
+    "code": "APR",
+    "city": "Anuppur",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Ara Junction",
+    "code": "ARA",
+    "city": "Ara",
+    "state": "Bihar"
+  },
+  {
+    "name": "Arakkonam Junction",
+    "code": "AJJ",
+    "city": "Arakkonam",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Arsikere Junction",
+    "code": "ASK",
+    "city": "Arsikere",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Asansol Junction",
+    "code": "ASN",
+    "city": "Asansol",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Aunrihar Junction",
+    "code": "ARJ",
+    "city": "Aunrihar",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Aurangabad",
+    "code": "AWB",
+    "city": "Aurangabad",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Ayodhya",
+    "code": "AY",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Azamgarh",
+    "code": "AMH",
+    "city": "Azamgarh",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Bandra Terminus",
+    "code": "BDTS",
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Bangalore Cantt",
+    "code": "BNC",
+    "city": "Bangalore",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Bangalore East",
+    "code": "BNCE",
+    "city": "Bangalore",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Bardhaman Junction",
+    "code": "BWN",
+    "city": "Bardhaman",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Bareilly Junction",
+    "code": "BE",
+    "city": "Bareilly",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Basti",
+    "code": "BST",
+    "city": "Basti",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Bathinda Junction",
+    "code": "BTI",
+    "city": "Bathinda",
+    "state": "Punjab"
+  },
+  {
+    "name": "Belgaum",
+    "code": "BGM",
+    "city": "Belgaum",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Berhampur",
+    "code": "BAM",
+    "city": "Berhampur",
+    "state": "Odisha"
+  },
+  {
+    "name": "Bettiah",
+    "code": "BTH",
+    "city": "Bettiah",
+    "state": "Bihar"
+  },
+  {
+    "name": "Bharatpur Junction",
+    "code": "BTE",
+    "city": "Bharatpur",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Bhatinda Cantt",
+    "code": "BTIC",
+    "city": "Bathinda",
+    "state": "Punjab"
+  },
+  {
+    "name": "Bhagalpur",
+    "code": "BGP",
+    "city": "Bhagalpur",
+    "state": "Bihar"
+  },
+  {
+    "name": "Bhilai Power House",
+    "code": "BPHB",
+    "city": "Bhilai",
+    "state": "Chhattisgarh"
+  },
+  {
+    "name": "Bhilwara",
+    "code": "BHL",
+    "city": "Bhilwara",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Bhiwani Junction",
+    "code": "BNW",
+    "city": "Bhiwani",
+    "state": "Haryana"
+  },
+  {
+    "name": "Bhusaval Junction",
+    "code": "BSL",
+    "city": "Bhusaval",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Bidar",
+    "code": "BIDR",
+    "city": "Bidar",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Bijapur",
+    "code": "BJP",
+    "city": "Bijapur",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Bikaner Junction",
+    "code": "BKN",
+    "city": "Bikaner",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Bilimora Junction",
+    "code": "BIM",
+    "city": "Bilimora",
+    "state": "Gujarat"
+  },
+  {
+    "name": "Bokaro Steel City",
+    "code": "BKSC",
+    "city": "Bokaro",
+    "state": "Jharkhand"
+  },
+  {
+    "name": "Borivali",
+    "code": "BVI",
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Buxar",
+    "code": "BXR",
+    "city": "Buxar",
+    "state": "Bihar"
+  },
+  {
+    "name": "Chandrapur",
+    "code": "CD",
+    "city": "Chandrapur",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Chhapra Junction",
+    "code": "CPR",
+    "city": "Chhapra",
+    "state": "Bihar"
+  },
+  {
+    "name": "Chittoor",
+    "code": "CTO",
+    "city": "Chittoor",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Churu",
+    "code": "CUR",
+    "city": "Churu",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Coimbatore North",
+    "code": "CBF",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Darbhanga Junction",
+    "code": "DBG",
+    "city": "Darbhanga",
+    "state": "Bihar"
+  },
+  {
+    "name": "Dehri On Sone",
+    "code": "DOS",
+    "city": "Dehri",
+    "state": "Bihar"
+  },
+  {
+    "name": "Delhi Cantt",
+    "code": "DEC",
+    "city": "Delhi",
+    "state": "Delhi"
+  },
+  {
+    "name": "Dewas",
+    "code": "DWX",
+    "city": "Dewas",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Dibrugarh",
+    "code": "DBRG",
+    "city": "Dibrugarh",
+    "state": "Assam"
+  },
+  {
+    "name": "Dumka",
+    "code": "DUMK",
+    "city": "Dumka",
+    "state": "Jharkhand"
+  },
+  {
+    "name": "Durg",
+    "code": "DURG",
+    "city": "Durg",
+    "state": "Chhattisgarh"
+  },
+  {
+    "name": "Durgapur",
+    "code": "DGR",
+    "city": "Durgapur",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Erode Junction",
+    "code": "ED",
+    "city": "Erode",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Faizabad Junction",
+    "code": "FD",
+    "city": "Faizabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Farrukhabad",
+    "code": "FBD",
+    "city": "Farrukhabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Firozpur Cantt",
+    "code": "FZR",
+    "city": "Firozpur",
+    "state": "Punjab"
+  },
+  {
+    "name": "Gaya Junction",
+    "code": "GAYA",
+    "city": "Gaya",
+    "state": "Bihar"
+  },
+  {
+    "name": "Ghazipur City",
+    "code": "GCT",
+    "city": "Ghazipur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Gonda Junction",
+    "code": "GD",
+    "city": "Gonda",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Guntakal Junction",
+    "code": "GTL",
+    "city": "Guntakal",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Guntur Junction",
+    "code": "GNT",
+    "city": "Guntur",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Abohar",
+    "code": "ABS",
+    "city": "Abohar",
+    "state": "Punjab"
+  },
+  {
+    "name": "Achhnera Junction",
+    "code": "AH",
+    "city": "Agra",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Adarsh Nagar Delhi",
+    "code": "ANDI",
+    "city": "Delhi",
+    "state": "Delhi"
+  },
+  {
+    "name": "Adas Road",
+    "code": "ADD",
+    "city": "Anand",
+    "state": "Gujarat"
+  },
+  {
+    "name": "Adavali",
+    "code": "ADVI",
+    "city": "Ratnagiri",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Agarpara",
+    "code": "AGP",
+    "city": "Kolkata",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Ahmadgarh",
+    "code": "AHH",
+    "city": "Sangrur",
+    "state": "Punjab"
+  },
+  {
+    "name": "Ait",
+    "code": "AIT",
+    "city": "Jalaun",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Akkalkot Road",
+    "code": "AKOR",
+    "city": "Solapur",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Akbarnagar",
+    "code": "AKN",
+    "city": "Bhagalpur",
+    "state": "Bihar"
+  },
+  {
+    "name": "Alipur",
+    "code": "ALP",
+    "city": "Kolkata",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Alipurduar Court",
+    "code": "APDC",
+    "city": "Alipurduar",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Allahabad Chheoki",
+    "code": "ACOI",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Alnavar Junction",
+    "code": "LWR",
+    "city": "Dharwad",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Amarpura",
+    "code": "APA",
+    "city": "Bikaner",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Amb Andaura",
+    "code": "AADR",
+    "city": "Una",
+    "state": "Himachal Pradesh"
+  },
+  {
+    "name": "Ambli Road",
+    "code": "ABD",
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  {
+    "name": "Ambur",
+    "code": "AB",
+    "city": "Vellore",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Amethi",
+    "code": "AME",
+    "city": "Amethi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Amgaon",
+    "code": "AGN",
+    "city": "Gondia",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Amguri",
+    "code": "AGI",
+    "city": "Sivasagar",
+    "state": "Assam"
+  },
+  {
+    "name": "Amla Khurd",
+    "code": "AMX",
+    "city": "Betul",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Amravati",
+    "code": "AMI",
+    "city": "Amravati",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Anand Nagar",
+    "code": "ANDN",
+    "city": "Maharajganj",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Anaparti",
+    "code": "APT",
+    "city": "East Godavari",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Andheri",
+    "code": "ADH",
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Angamaly",
+    "code": "AFK",
+    "city": "Ernakulam",
+    "state": "Kerala"
+  },
+  {
+    "name": "Ankleshwar Junction",
+    "code": "AKV",
+    "city": "Ankleshwar",
+    "state": "Gujarat"
+  },
+  {
+    "name": "Anpara",
+    "code": "ANPR",
+    "city": "Sonbhadra",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Anugraha Narayan Road",
+    "code": "AUBR",
+    "city": "Aurangabad",
+    "state": "Bihar"
+  },
+  {
+    "name": "Arakkonam",
+    "code": "AJJ",
+    "city": "Arakkonam",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Arariya Court",
+    "code": "ARQ",
+    "city": "Araria",
+    "state": "Bihar"
+  },
+  {
+    "name": "Araria",
+    "code": "ARR",
+    "city": "Araria",
+    "state": "Bihar"
+  },
+  {
+    "name": "Ariyalur",
+    "code": "ALU",
+    "city": "Ariyalur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Arrah",
+    "code": "ARA",
+    "city": "Ara",
+    "state": "Bihar"
+  },
+  {
+    "name": "Arsikere",
+    "code": "ASK",
+    "city": "Arsikere",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Arvi",
+    "code": "ARVI",
+    "city": "Wardha",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Asangaon",
+    "code": "ASO",
+    "city": "Thane",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Ashok Nagar",
+    "code": "ASKN",
+    "city": "Ashoknagar",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Atarra",
+    "code": "ATE",
+    "city": "Banda",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Attur",
+    "code": "ATTR",
+    "city": "Salem",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Ausa Road",
+    "code": "OSA",
+    "city": "Latur",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Avadi",
+    "code": "AVD",
+    "city": "Chennai",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Avinashi Road",
+    "code": "AVN",
+    "city": "Tiruppur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Babina",
+    "code": "BAB",
+    "city": "Jhansi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Bachhrawan",
+    "code": "BCN",
+    "city": "Raebareli",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Badarpur Junction",
+    "code": "BPB",
+    "city": "Karimganj",
+    "state": "Assam"
+  },
+  {
+    "name": "Badlapur",
+    "code": "BUD",
+    "city": "Thane",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Bagaha",
+    "code": "BUG",
+    "city": "Bagaha",
+    "state": "Bihar"
+  },
+  {
+    "name": "Bagalkot",
+    "code": "BGK",
+    "city": "Bagalkot",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Baghpat Road",
+    "code": "BPM",
+    "city": "Baghpat",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Bahadurgarh",
+    "code": "BGZ",
+    "city": "Jhajjar",
+    "state": "Haryana"
+  },
+  {
+    "name": "Bahraich",
+    "code": "BRK",
+    "city": "Bahraich",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Baidyanathdham",
+    "code": "BDME",
+    "city": "Deoghar",
+    "state": "Jharkhand"
+  },
+  {
+    "name": "Baihata Chariali",
+    "code": "BIZ",
+    "city": "Kamrup",
+    "state": "Assam"
+  },
+  {
+    "name": "Bakhtiyarpur Junction",
+    "code": "BKP",
+    "city": "Patna",
+    "state": "Bihar"
+  },
+  {
+    "name": "Balaghat Junction",
+    "code": "BTC",
+    "city": "Balaghat",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Balangir",
+    "code": "BLGR",
+    "city": "Balangir",
+    "state": "Odisha"
+  },
+  {
+    "name": "Balasore",
+    "code": "BLS",
+    "city": "Balasore",
+    "state": "Odisha"
+  },
+  {
+    "name": "Ballia",
+    "code": "BUI",
+    "city": "Ballia",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Balotra Junction",
+    "code": "BLT",
+    "city": "Barmer",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Bamra",
+    "code": "BMB",
+    "city": "Sambalpur",
+    "state": "Odisha"
+  },
+  {
+    "name": "Banaras",
+    "code": "BSBS",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Banda Junction",
+    "code": "BNDA",
+    "city": "Banda",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Bandel Junction",
+    "code": "BDC",
+    "city": "Hooghly",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Bandikui Junction",
+    "code": "BKI",
+    "city": "Dausa",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Banka",
+    "code": "BAKA",
+    "city": "Banka",
+    "state": "Bihar"
+  },
+  {
+    "name": "Bankura",
+    "code": "BQA",
+    "city": "Bankura",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Banmankhi Junction",
+    "code": "BNKI",
+    "city": "Purnia",
+    "state": "Bihar"
+  },
+  {
+    "name": "Banswara",
+    "code": "BANS",
+    "city": "Banswara",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Achalda",
+    "code": "ULD",
+    "city": "Auraiya",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Achalganj",
+    "code": "ACH",
+    "city": "Unnao",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Acharapakkam",
+    "code": "ACK",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Adapur",
+    "code": "ADX",
+    "city": "East Champaran",
+    "state": "Bihar"
+  },
+  {
+    "name": "Adarsh Manpur",
+    "code": "AHMP",
+    "city": "Gaya",
+    "state": "Bihar"
+  },
+  {
+    "name": "Aduturai",
+    "code": "ADT",
+    "city": "Thanjavur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Afzalpur",
+    "code": "AFZ",
+    "city": "Kalaburagi",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Agasod",
+    "code": "AGD",
+    "city": "Sagar",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Aghwanpur",
+    "code": "AWP",
+    "city": "Moradabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Ahraura Road",
+    "code": "ARW",
+    "city": "Mirzapur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Aishbagh",
+    "code": "ASH",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Ait Junction",
+    "code": "AIT",
+    "city": "Jalaun",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Akanapet",
+    "code": "AKE",
+    "city": "Kamareddy",
+    "state": "Telangana"
+  },
+  {
+    "name": "Akbarpur",
+    "code": "ABP",
+    "city": "Ambedkar Nagar",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Akividu",
+    "code": "AKVD",
+    "city": "West Godavari",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Akodia",
+    "code": "AKD",
+    "city": "Shajapur",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Akot",
+    "code": "AKOT",
+    "city": "Akola",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Akurdi",
+    "code": "AKRD",
+    "city": "Pune",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Alamnagar",
+    "code": "AMG",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Alawalpur",
+    "code": "AWH",
+    "city": "Patiala",
+    "state": "Punjab"
+  },
+  {
+    "name": "Alipurduar Road",
+    "code": "APD",
+    "city": "Alipurduar",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Allahabad City",
+    "code": "ALY",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Alleppey",
+    "code": "ALLP",
+    "city": "Alappuzha",
+    "state": "Kerala"
+  },
+  {
+    "name": "Aluabari Road",
+    "code": "AUB",
+    "city": "Kishanganj",
+    "state": "Bihar"
+  },
+  {
+    "name": "Alwar Junction",
+    "code": "AWR",
+    "city": "Alwar",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Amalapuram",
+    "code": "AMP",
+    "city": "East Godavari",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Amarpura Rathan",
+    "code": "AMPR",
+    "city": "Bikaner",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Amethi Road",
+    "code": "AME",
+    "city": "Amethi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Amguri Road",
+    "code": "AGI",
+    "city": "Sivasagar",
+    "state": "Assam"
+  },
+  {
+    "name": "Amritpur",
+    "code": "ARP",
+    "city": "Farrukhabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Anakapalle Road",
+    "code": "AKP",
+    "city": "Anakapalle",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Anandpur Sahib",
+    "code": "ANSB",
+    "city": "Rupnagar",
+    "state": "Punjab"
+  },
+  {
+    "name": "Anantnag",
+    "code": "ANT",
+    "city": "Anantnag",
+    "state": "Jammu & Kashmir"
+  },
+  {
+    "name": "Andal Junction",
+    "code": "UDL",
+    "city": "Andal",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Angul Road",
+    "code": "ANGL",
+    "city": "Angul",
+    "state": "Odisha"
+  },
+  {
+    "name": "Anjar",
+    "code": "AJE",
+    "city": "Kutch",
+    "state": "Gujarat"
+  },
+  {
+    "name": "Ankai",
+    "code": "ANK",
+    "city": "Nashik",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Ankola",
+    "code": "ANKL",
+    "city": "Uttara Kannada",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Annavaram Road",
+    "code": "ANV",
+    "city": "East Godavari",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Anuppur Road",
+    "code": "APR",
+    "city": "Anuppur",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Babarpur",
+    "code": "BBR",
+    "city": "Panipat",
+    "state": "Haryana"
+  },
+  {
+    "name": "Babatpur",
+    "code": "BTP",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Babhnan",
+    "code": "BV",
+    "city": "Basti",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Babugarh",
+    "code": "BBO",
+    "city": "Hapur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Bacheli",
+    "code": "BCHL",
+    "city": "Dantewada",
+    "state": "Chhattisgarh"
+  },
+  {
+    "name": "Badami",
+    "code": "BDM",
+    "city": "Bagalkot",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Badnera Junction",
+    "code": "BD",
+    "city": "Amravati",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Badshahnagar",
+    "code": "BNZ",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Bagbahra",
+    "code": "BGBR",
+    "city": "Mahasamund",
+    "state": "Chhattisgarh"
+  },
+  {
+    "name": "Bagpat",
+    "code": "BPM",
+    "city": "Baghpat",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Bahadurganj",
+    "code": "BGG",
+    "city": "Kishanganj",
+    "state": "Bihar"
+  },
+  {
+    "name": "Baheri",
+    "code": "BHI",
+    "city": "Bareilly",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Bahjoi",
+    "code": "BJ",
+    "city": "Sambhal",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Baihatola",
+    "code": "BATL",
+    "city": "Anuppur",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Baikunthpur Road",
+    "code": "BRH",
+    "city": "Koriya",
+    "state": "Chhattisgarh"
+  },
+  {
+    "name": "Balharshah Junction",
+    "code": "BPQ",
+    "city": "Chandrapur",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Baliakheri",
+    "code": "BAE",
+    "city": "Saharanpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Ballabgarh",
+    "code": "BVH",
+    "city": "Faridabad",
+    "state": "Haryana"
+  },
+  {
+    "name": "Balugan",
+    "code": "BALU",
+    "city": "Khordha",
+    "state": "Odisha"
+  },
+  {
+    "name": "Bamangachhi",
+    "code": "BMG",
+    "city": "Howrah",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Aata",
+    "code": "ATA",
+    "city": "Banda",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Abada",
+    "code": "ABB",
+    "city": "Visakhapatnam",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Abhaipur",
+    "code": "AHA",
+    "city": "Munger",
+    "state": "Bihar"
+  },
+  {
+    "name": "Achalpur",
+    "code": "APR",
+    "city": "Amravati",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Acharya Narendra Dev Nagar",
+    "code": "ACND",
+    "city": "Faizabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Achhnera",
+    "code": "AH",
+    "city": "Agra",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Adesar",
+    "code": "AAR",
+    "city": "Kutch",
+    "state": "Gujarat"
+  },
+  {
+    "name": "Adhyatmik Nagar",
+    "code": "AKNR",
+    "city": "Ghaziabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Adoni Road",
+    "code": "ADN",
+    "city": "Kurnool",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Adra East Cabin",
+    "code": "ADRE",
+    "city": "Adra",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Agori Khas",
+    "code": "AGY",
+    "city": "Sonbhadra",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Agthori",
+    "code": "AGT",
+    "city": "Guwahati",
+    "state": "Assam"
+  },
+  {
+    "name": "Ahiran",
+    "code": "AHN",
+    "city": "Bhagalpur",
+    "state": "Bihar"
+  },
+  {
+    "name": "Ailam",
+    "code": "AILM",
+    "city": "Shamli",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Aishbagh MG",
+    "code": "ASSH",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Ajgain",
+    "code": "AJ",
+    "city": "Unnao",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Akalapuzha",
+    "code": "AKLZ",
+    "city": "Kozhikode",
+    "state": "Kerala"
+  },
+  {
+    "name": "Akanapet Road",
+    "code": "AKRP",
+    "city": "Kamareddy",
+    "state": "Telangana"
+  },
+  {
+    "name": "Akividu Road",
+    "code": "AKVR",
+    "city": "West Godavari",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Akra",
+    "code": "AKRA",
+    "city": "Kolkata",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Alamnagar Road",
+    "code": "AMGR",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Alawalpur I Pur",
+    "code": "AWPR",
+    "city": "Patiala",
+    "state": "Punjab"
+  },
+  {
+    "name": "Aliganj",
+    "code": "ALJ",
+    "city": "Etah",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Alipur Halt",
+    "code": "ALPH",
+    "city": "Patna",
+    "state": "Bihar"
+  },
+  {
+    "name": "Alur Halt",
+    "code": "ALUR",
+    "city": "Kurnool",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Amargarh",
+    "code": "AGR",
+    "city": "Pratapgarh",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Amarwara",
+    "code": "AMW",
+    "city": "Chhindwara",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Ambiapur",
+    "code": "AAP",
+    "city": "Kanpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Ambli",
+    "code": "AMB",
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  {
+    "name": "Amdi Halt",
+    "code": "AMDI",
+    "city": "Kanker",
+    "state": "Chhattisgarh"
+  },
+  {
+    "name": "Amethi Halt",
+    "code": "AMEH",
+    "city": "Amethi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Amgaon Halt",
+    "code": "AGN",
+    "city": "Gondia",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Amila",
+    "code": "AML",
+    "city": "Mau",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Amritpur Road",
+    "code": "ARP",
+    "city": "Farrukhabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Anandpur Road",
+    "code": "ANPR",
+    "city": "Una",
+    "state": "Himachal Pradesh"
+  },
+  {
+    "name": "Ancheli",
+    "code": "ACL",
+    "city": "Navsari",
+    "state": "Gujarat"
+  },
+  {
+    "name": "Andipatti",
+    "code": "ADPT",
+    "city": "Theni",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Angalakuduru",
+    "code": "AKU",
+    "city": "Guntur",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Anjhi Shahabad",
+    "code": "AJI",
+    "city": "Hardoi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Ankai Road",
+    "code": "ANKR",
+    "city": "Nashik",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Ankleshwar Road",
+    "code": "AKVR",
+    "city": "Ankleshwar",
+    "state": "Gujarat"
+  },
+  {
+    "name": "Anupgarh",
+    "code": "APH",
+    "city": "Sri Ganganagar",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Aonla",
+    "code": "AO",
+    "city": "Bareilly",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Ara Road",
+    "code": "ARRD",
+    "city": "Ara",
+    "state": "Bihar"
+  },
+  {
+    "name": "Arariya Halt",
+    "code": "ARH",
+    "city": "Araria",
+    "state": "Bihar"
+  },
+  {
+    "name": "Arigada",
+    "code": "ARGD",
+    "city": "Ramgarh",
+    "state": "Jharkhand"
+  },
+  {
+    "name": "Ariyalur Road",
+    "code": "ALURD",
+    "city": "Ariyalur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Arjansar",
+    "code": "AS",
+    "city": "Bikaner",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Arnia",
+    "code": "ARNA",
+    "city": "Jammu",
+    "state": "Jammu & Kashmir"
+  },
+  {
+    "name": "Asafpur",
+    "code": "AFR",
+    "city": "Budaun",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Asanboni",
+    "code": "ASB",
+    "city": "Jamshedpur",
+    "state": "Jharkhand"
+  },
+  {
+    "name": "Aslana",
+    "code": "ASL",
+    "city": "Damoh",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Ateli",
+    "code": "AEL",
+    "city": "Mahendragarh",
+    "state": "Haryana"
+  },
+  {
+    "name": "Atrauli Road",
+    "code": "AUR",
+    "city": "Aligarh",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Atwa Kursath",
+    "code": "ATKS",
+    "city": "Hardoi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Babhulgaon",
+    "code": "BABG",
+    "city": "Yavatmal",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Babrala",
+    "code": "BBA",
+    "city": "Sambhal",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Bachhgaon",
+    "code": "BGQ",
+    "city": "Mathura",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Badkulla",
+    "code": "BDZ",
+    "city": "Nadia",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Badnapur",
+    "code": "BDU",
+    "city": "Jalna",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Badshahpur",
+    "code": "BSE",
+    "city": "Jaunpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Bagaha Road",
+    "code": "BAGR",
+    "city": "West Champaran",
+    "state": "Bihar"
+  },
+  {
+    "name": "Bagdihi",
+    "code": "BGDI",
+    "city": "Sambalpur",
+    "state": "Odisha"
+  },
+  {
+    "name": "Baghnapara",
+    "code": "BGRA",
+    "city": "Bardhaman",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Bagri Nagar",
+    "code": "BGX",
+    "city": "Nagaur",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Baheri Road",
+    "code": "BERD",
+    "city": "Bareilly",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Bahraich Road",
+    "code": "BRRD",
+    "city": "Bahraich",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Baijnath Mandir",
+    "code": "BJMR",
+    "city": "Kangra",
+    "state": "Himachal Pradesh"
+  },
+  {
+    "name": "Baikunth",
+    "code": "BKT",
+    "city": "Raipur",
+    "state": "Chhattisgarh"
+  },
+  {
+    "name": "Bairagnia",
+    "code": "BGU",
+    "city": "Sitamarhi",
+    "state": "Bihar"
+  },
+  {
+    "name": "Bajrangarh",
+    "code": "BJG",
+    "city": "Guna",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Bakhleta",
+    "code": "BKTL",
+    "city": "Katni",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Balamu Junction",
+    "code": "BLM",
+    "city": "Hardoi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Balangir Road",
+    "code": "BLGRD",
+    "city": "Balangir",
+    "state": "Odisha"
+  },
+  {
+    "name": "Balarambati",
+    "code": "BLAE",
+    "city": "Hooghly",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Sitapur Junction",
+    "code": "STP",
+    "city": "Sitapur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Sitapur Cantt",
+    "code": "SCC",
+    "city": "Sitapur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Shahjahanpur",
+    "code": "SPN",
+    "city": "Shahjahanpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Shamli",
+    "code": "SMQL",
+    "city": "Shamli",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Saharanpur Junction",
+    "code": "SRE",
+    "city": "Saharanpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Rampur Junction",
+    "code": "RMU",
+    "city": "Rampur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Moradabad Junction",
+    "code": "MB",
+    "city": "Moradabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Hapur Junction",
+    "code": "HPU",
+    "city": "Hapur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Meerut City",
+    "code": "MTC",
+    "city": "Meerut",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Ghaziabad Junction",
+    "code": "GZB",
+    "city": "Ghaziabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "name": "Faridabad",
+    "code": "FDB",
+    "city": "Faridabad",
+    "state": "Haryana"
+  },
+  {
+    "name": "Ballabhgarh",
+    "code": "BVH",
+    "city": "Faridabad",
+    "state": "Haryana"
+  },
+  {
+    "name": "Palwal",
+    "code": "PWL",
+    "city": "Palwal",
+    "state": "Haryana"
+  },
+  {
+    "name": "Rewari Junction",
+    "code": "RE",
+    "city": "Rewari",
+    "state": "Haryana"
+  },
+  {
+    "name": "Rohtak Junction",
+    "code": "ROK",
+    "city": "Rohtak",
+    "state": "Haryana"
+  },
+  {
+    "name": "Panipat Junction",
+    "code": "PNP",
+    "city": "Panipat",
+    "state": "Haryana"
+  },
+  {
+    "name": "Sonipat",
+    "code": "SNP",
+    "city": "Sonipat",
+    "state": "Haryana"
+  },
+  {
+    "name": "Kurukshetra Junction",
+    "code": "KKDE",
+    "city": "Kurukshetra",
+    "state": "Haryana"
+  },
+  {
+    "name": "Ambala City",
+    "code": "UBC",
+    "city": "Ambala",
+    "state": "Haryana"
+  },
+  {
+    "name": "Yamunanagar Jagadhri",
+    "code": "YJUD",
+    "city": "Yamunanagar",
+    "state": "Haryana"
+  },
+  {
+    "name": "Pathankot Junction",
+    "code": "PTK",
+    "city": "Pathankot",
+    "state": "Punjab"
+  },
+  {
+    "name": "Jalandhar City",
+    "code": "JUC",
+    "city": "Jalandhar",
+    "state": "Punjab"
+  },
+  {
+    "name": "Phagwara Junction",
+    "code": "PGW",
+    "city": "Phagwara",
+    "state": "Punjab"
+  },
+  {
+    "name": "Kapurthala",
+    "code": "KXH",
+    "city": "Kapurthala",
+    "state": "Punjab"
+  },
+  {
+    "name": "Firozpur City",
+    "code": "FZP",
+    "city": "Firozpur",
+    "state": "Punjab"
+  },
+  {
+    "name": "Tarn Taran",
+    "code": "TTO",
+    "city": "Tarn Taran",
+    "state": "Punjab"
+  },
+  {
+    "name": "Batala Junction",
+    "code": "BAT",
+    "city": "Batala",
+    "state": "Punjab"
+  },
+  {
+    "name": "Gurdaspur",
+    "code": "GSP",
+    "city": "Gurdaspur",
+    "state": "Punjab"
+  },
+  {
+    "name": "Hoshiarpur",
+    "code": "HSX",
+    "city": "Hoshiarpur",
+    "state": "Punjab"
+  },
+  {
+    "name": "Moga",
+    "code": "MOGA",
+    "city": "Moga",
+    "state": "Punjab"
+  },
+  {
+    "name": "Udhampur",
+    "code": "UHP",
+    "city": "Udhampur",
+    "state": "Jammu & Kashmir"
+  },
+  {
+    "name": "Katra",
+    "code": "SVDK",
+    "city": "Katra",
+    "state": "Jammu & Kashmir"
+  },
+  {
+    "name": "Banihal",
+    "code": "BAHL",
+    "city": "Banihal",
+    "state": "Jammu & Kashmir"
+  },
+  {
+    "name": "Shimla",
+    "code": "SML",
+    "city": "Shimla",
+    "state": "Himachal Pradesh"
+  },
+  {
+    "name": "Solan",
+    "code": "SOL",
+    "city": "Solan",
+    "state": "Himachal Pradesh"
+  },
+  {
+    "name": "Kalka",
+    "code": "KLK",
+    "city": "Kalka",
+    "state": "Haryana"
+  },
+  {
+    "name": "Kathgodam",
+    "code": "KGM",
+    "city": "Kathgodam",
+    "state": "Uttarakhand"
+  },
+  {
+    "name": "Ramnagar",
+    "code": "RMR",
+    "city": "Ramnagar",
+    "state": "Uttarakhand"
+  },
+  {
+    "name": "Kotdwar",
+    "code": "KTW",
+    "city": "Kotdwar",
+    "state": "Uttarakhand"
+  },
+  {
+    "name": "Silchar",
+    "code": "SCL",
+    "city": "Silchar",
+    "state": "Assam"
+  },
+  {
+    "name": "Lumding Junction",
+    "code": "LMG",
+    "city": "Lumding",
+    "state": "Assam"
+  },
+  {
+    "name": "Tinsukia Junction",
+    "code": "TSK",
+    "city": "Tinsukia",
+    "state": "Assam"
+  },
+  {
+    "name": "Dimapur",
+    "code": "DMV",
+    "city": "Dimapur",
+    "state": "Nagaland"
+  },
+  {
+    "name": "Itanagar",
+    "code": "ITA",
+    "city": "Itanagar",
+    "state": "Arunachal Pradesh"
+  },
+  {
+    "name": "New Jalpaiguri",
+    "code": "NJP",
+    "city": "Siliguri",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Malda Town",
+    "code": "MLDT",
+    "city": "Malda",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Kharagpur",
+    "code": "KGP",
+    "city": "Kharagpur",
+    "state": "West Bengal"
+  },
+  {
+    "name": "Jamshedpur",
+    "code": "TATA",
+    "city": "Jamshedpur",
+    "state": "Jharkhand"
+  },
+  {
+    "name": "Hazaribagh Road",
+    "code": "HZD",
+    "city": "Hazaribagh",
+    "state": "Jharkhand"
+  },
+  {
+    "name": "Samastipur Junction",
+    "code": "SPJ",
+    "city": "Samastipur",
+    "state": "Bihar"
+  },
+  {
+    "name": "Katihar Junction",
+    "code": "KIR",
+    "city": "Katihar",
+    "state": "Bihar"
+  },
+  {
+    "name": "Puri",
+    "code": "PURI",
+    "city": "Puri",
+    "state": "Odisha"
+  },
+  {
+    "name": "Jharsuguda Junction",
+    "code": "JSG",
+    "city": "Jharsuguda",
+    "state": "Odisha"
+  },
+  {
+    "name": "Tirupati",
+    "code": "TPTY",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Renigunta Junction",
+    "code": "RU",
+    "city": "Renigunta",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "name": "Warangal",
+    "code": "WL",
+    "city": "Warangal",
+    "state": "Telangana"
+  },
+  {
+    "name": "Davangere",
+    "code": "DVG",
+    "city": "Davangere",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Shimoga Town",
+    "code": "SMET",
+    "city": "Shimoga",
+    "state": "Karnataka"
+  },
+  {
+    "name": "Salem Junction",
+    "code": "SA",
+    "city": "Salem",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Tirunelveli",
+    "code": "TEN",
+    "city": "Tirunelveli",
+    "state": "Tamil Nadu"
+  },
+  {
+    "name": "Palakkad Junction",
+    "code": "PGT",
+    "city": "Palakkad",
+    "state": "Kerala"
+  },
+  {
+    "name": "Ratlam Junction",
+    "code": "RTM",
+    "city": "Ratlam",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Itarsi Junction",
+    "code": "ET",
+    "city": "Itarsi",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "name": "Surendranagar",
+    "code": "SUNR",
+    "city": "Surendranagar",
+    "state": "Gujarat"
+  },
+  {
+    "name": "Kalyan Junction",
+    "code": "KYN",
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Dadar",
+    "code": "DR",
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  },
+  {
+    "name": "Ajmer",
+    "code": "AII",
+    "city": "Ajmer",
+    "state": "Rajasthan"
+  },
+  {
+    "name": "Kota Junction",
+    "code": "KOTA",
+    "city": "Kota",
+    "state": "Rajasthan"
+  }
+]
