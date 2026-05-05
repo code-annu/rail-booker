@@ -22,6 +22,9 @@ export const mapToStationsResponse = (
     success: true,
     message,
     statusCode,
-    data: stations,
+    data: {
+      total: stations.length,
+      stations,
+    },
   };
 };
